@@ -10,7 +10,7 @@ export const contents: Content[] = [
     format: "article",
     icon: "FileSpreadsheet",
     featured: true,
-    templateUrl: "/templates/Planilha_de_gastos.xlsx",
+    templateUrl: `${import.meta.env.BASE_URL}templates/Planilha_de_gastos.xlsx`,
     templateLabel: "📥 Baixar Planilha de Gastos (.xlsx)",
     body: `## Por que controlar seus gastos?\n\nMuitos pequenos negócios fecham por falta de controle financeiro. Com uma planilha simples, você consegue saber exatamente para onde vai cada centavo.\n\n## Como funciona a planilha\n\nA planilha que preparamos tem 4 colunas simples:\n\n- **Data** — quando aconteceu a movimentação\n- **Descrição** — o que foi (ex: "Compra de material", "Venda produto X")\n- **Tipo** — se é uma **Entrada** ou **Saída** de dinheiro\n- **Valor** — quanto foi (ex: R$ 500,00)\n\n## Passo a Passo para Usar\n\n1. Baixe a planilha clicando no botão acima\n2. Abra no Excel ou Google Planilhas\n3. Na primeira linha, registre seu **Saldo Inicial** como Entrada\n4. A cada movimentação, preencha uma nova linha\n5. Marque o Tipo corretamente: **Entrada** para dinheiro que entra, **Saída** para dinheiro que sai\n\n## Totais Automáticos\n\nNo final da planilha, os totais são calculados automaticamente:\n\n- **Total de Entradas** — soma de todo dinheiro que entrou\n- **Total de Saídas** — soma de todo dinheiro que saiu\n- **Saldo** — a diferença entre entradas e saídas\n\nSe o saldo estiver **negativo**, significa que você gastou mais do que recebeu — hora de cortar custos!\n\n## Dica de Ouro\nAtualize a planilha **todo dia**, mesmo que demore só 5 minutos. A disciplina faz toda a diferença!`,
     checklist: [
@@ -95,7 +95,7 @@ export const contents: Content[] = [
     format: "article",
     icon: "Calculator",
     featured: true,
-    templateUrl: "/templates/Planilha_de_precos_de_venda.xlsx",
+    templateUrl: `${import.meta.env.BASE_URL}templates/Planilha_de_precos_de_venda.xlsx`,
     templateLabel: "📥 Baixar Planilha de Preços de Venda (.xlsx)",
     body: `## Por que calcular o preço de venda corretamente?\n\nMuitos empreendedores perdem dinheiro porque não sabem calcular o preço certo. Cobrar pouco dá prejuízo; cobrar demais afasta clientes. Com essa planilha, você resolve isso em segundos.\n\n## Como funciona a planilha\n\nA planilha tem 4 colunas simples:\n\n- **ITEM** — nome do produto ou serviço\n- **CUSTO** — quanto você paga pelo item (ex: R$ 50,00)\n- **MARGEM DE LUCRO** — a porcentagem de lucro que você quer (ex: 100%)\n- **VALOR DE VENDA** — calculado automaticamente!\n\n## Exemplo Prático\n\nDigamos que você compra um produto por **R$ 50,00** e quer ter **100% de margem de lucro**:\n\n- Custo: R$ 50,00\n- Margem: 100%\n- Valor de Venda: **R$ 100,00** ✅\n\nA planilha faz esse cálculo automaticamente para cada item!\n\n## Passo a Passo para Usar\n\n1. Baixe a planilha clicando no botão acima\n2. Abra no Excel ou Google Planilhas\n3. Na coluna **ITEM**, escreva o nome do produto\n4. Na coluna **CUSTO**, coloque quanto você paga por ele\n5. Na coluna **MARGEM DE LUCRO**, defina a % de lucro desejada\n6. O **VALOR DE VENDA** será calculado automaticamente!\n\n## Como definir a Margem de Lucro?\n\n- **50%** — margem conservadora, bom para produtos com alta concorrência\n- **100%** — margem padrão para muitos comércios\n- **150-200%** — comum em alimentação, artesanato e produtos exclusivos\n\n## Dica de Ouro\nPesquise o preço da concorrência antes de definir sua margem. Se seu preço ficar muito acima, reduza custos em vez de diminuir a margem!`,
     checklist: [
